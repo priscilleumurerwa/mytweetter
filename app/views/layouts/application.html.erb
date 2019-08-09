@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mytweetter</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <header> 
+  <p> My web application with ruby on rails</p>
+  <nav> 
+  <ul>
+  <li class="home"> home</li>
+  <li class="item" id="item1">login</li>
+  <li class="item">logout</li>
+  </ul>
+  </nav>
+
+  </header>
+<h1> get started on twitter</h1>
+  <footer>
+  <p>@ well done!!!</p>
+  </footer>
+    <%= yield %>
+  </body>
+</html>
