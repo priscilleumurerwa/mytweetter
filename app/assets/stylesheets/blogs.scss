@@ -1,9 +1,11 @@
-
+body{
+    background-color:grey;
+}
 .header{
-    background-color:green;
+    background-color:burlywood;
     text-align: center;
     width: 100%;
-    margin-left: 7rem;
+    margin-left:0;
     height: 50px;
     margin-bottom: 3rem;
 }
@@ -20,13 +22,16 @@
     width: 30%;
     height: 300px;;
 }
+.div2 img{
+    margin-left: 9rem;
+}
 .footer{
     margin-top:25rem;
-    background-color: green;
+    background-color:burlywood;
     text-align: center;
     font-size:40px;
     width: 100%;
-    margin-left: 7rem;
+    margin-left: 0;
 }
 .table{
     width: 37px;
@@ -49,4 +54,7 @@ table {
     border-collapse: separate;
     border-spacing: 2px;
     width:50%;
+}
+h2{
+    text-align: center;
 }
