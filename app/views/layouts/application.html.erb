@@ -10,21 +10,32 @@
   </head>
 
   <body>
-  <header> 
-  <p> My web application with ruby on rails</p>
-  <nav> 
-  <ul>
-  <li class="home"> home</li>
-  <li class="item" id="item1">login</li>
-  <li class="item">logout</li>
-  </ul>
-  </nav>
+  <div class="header">
+            <header>
+                <nav>
+                    <h1>Get started on twitter here</h1>
+                    </nav>
+                    </header>
+                    </div>
+                    <div class="div1">
+                        <table class="table">
+                            <tr><td><a href="#">login</a></td></tr>
+                            <tr><td class="size"><%= image_tag"twitter-home.png" %></td><td>home</td></tr>
+                            <tr><td class="size"><%= image_tag"twitter-notifications.png" %></td><td>notification</td></tr>
+                            <tr><td class="size"><%= image_tag"prifil.jpg" %></td><td>follower</td></tr>
+                            <tr><td class="size"><%=image_tag"twitter-more.png" %></td><td>more</td></tr>
+                            <tr><td><a href="#">help</a></td></tr>
+                            </table>
+                            </div>
+                            <div class="div2">
+                                <p class="sizes"><%=image_tag"profil.png" %><br>Edit profile</p>
+                                </div>
+                                <div class="footer">
+                                    <p>my work</p>
+                                    </div>
+<%= yield %>
 
-  </header>
-<h1> get started on twitter</h1>
-  <footer>
-  <p>@ well done!!!</p>
-  </footer>
-    <%= yield %>
+
+    
   </body>
 </html>

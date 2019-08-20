@@ -1,38 +1,52 @@
-// Place all the styles related to the blogs controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-body{
-    margin-left: 5rem;
-    background-color: green;
-}
-h1{
-    background-image:url(image2.png);
-    width:70%;
-    height:80px;
-    color:yellow;
-    font-size: 30px;
-    text-align: center;
-}
-p{
-    font-size: 40px;
-    background-color: blue;
-    width:70%;
-}
-nav {
 
+.header{
+    background-color:green;
+    text-align: center;
+    width: 100%;
+    margin-left: 7rem;
+    height: 50px;
+    margin-bottom: 3rem;
+}
+.div1{
+    float: left;
+    background-color: blue;
+    margin-left: 7rem;
+    width: 25%;
+}
+.div2{
+    float: right;
+    margin-right: 17rem;
     background-color: blueviolet;
-    width: 70%;
-    height: 30%;
-    
+    width: 30%;
+    height: 300px;;
 }
-ul li{
-    display:inline-block;
-    color:white;
+.footer{
+    margin-top:25rem;
+    background-color: green;
+    text-align: center;
+    font-size:40px;
+    width: 100%;
+    margin-left: 7rem;
 }
-.item{
-    margin-left:20rem;
-    width: 20px;
+.table{
+    width: 37px;
+    font-size: 20px;
 }
-#item1{
-    margin-left: 18rem;
+.size img{
+width: 50px;
+}
+.sizes img{
+    width: 130px;
+}
+td a{
+    color:black;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    border-collapse: separate;
+    border-spacing: 2px;
+    width:50%;
 }
