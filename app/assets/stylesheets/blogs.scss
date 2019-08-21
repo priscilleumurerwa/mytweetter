@@ -1,5 +1,6 @@
 body{
     background-color:grey;
+    background-size: 100%;
 }
 .header{
     background-color:burlywood;
@@ -12,18 +13,19 @@ body{
 .div1{
     float: left;
     background-color: blue;
-    margin-left: 7rem;
-    width: 25%;
+    margin-left: 5rem;
+    width: 20%;
+    height: 300px;
 }
 .div2{
     float: right;
     margin-right: 17rem;
     background-color: blueviolet;
-    width: 30%;
-    height: 300px;;
+    width: 20%;
+    height: 300px;
 }
 .div2 img{
-    margin-left: 9rem;
+    margin-left:6rem;
 }
 .footer{
     margin-top:25rem;
@@ -32,6 +34,8 @@ body{
     font-size:40px;
     width: 100%;
     margin-left: 0;
+    position: fixed;
+    height:15%;
 }
 .table{
     width: 37px;
@@ -54,6 +58,7 @@ table {
     border-collapse: separate;
     border-spacing: 2px;
     width:50%;
+    margin-bottom: 2rem;
 }
 h2{
     text-align: center;
