@@ -2,13 +2,15 @@ body{
     background-color:grey;
     background-size: 100%;
 }
-.header{
-    background-color:burlywood;
-    text-align: center;
-    width: 100%;
-    margin-left:0;
-    height: 50px;
-    margin-bottom: 3rem;
+.navbar-brand{
+    align: center;
+    margin-left: 500px
+   
+}
+.list{
+    margin-left: 520px;
+
+    padding: 5px
 }
 .div1{
     float: left;
@@ -19,26 +21,27 @@ body{
 }
 .div2{
     float: right;
-    margin-right: 17rem;
+  
     background-color: blueviolet;
     width: 20%;
     height: 300px;
 }
 .div2 img{
-    margin-left:6rem;
+    margin-left:5rem;
+    margin-top:2rem;
 }
 .footer{
-    margin-top:25rem;
+    
     background-color:burlywood;
     text-align: center;
     font-size:40px;
     width: 100%;
     margin-left: 0;
-    position: fixed;
+    position: relative;
     height:15%;
 }
 .table{
-    width: 37px;
+    
     font-size: 20px;
 }
 .size img{
@@ -46,19 +49,6 @@ width: 50px;
 }
 .sizes img{
     width: 130px;
-}
-td a{
-    color:black;
-}
-table {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: grey;
-    border-collapse: separate;
-    border-spacing: 2px;
-    width:50%;
-    margin-bottom: 2rem;
 }
 h2{
     text-align: center;

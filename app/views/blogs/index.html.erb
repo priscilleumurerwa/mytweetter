@@ -1,29 +1,24 @@
-
+<div class="list">
 <h1>List of blogs</h1>
 <p><%= notice %></p>
 <table>
   <tr>
     <th>Contents</th>
     <th>Date of creation</th></th>
-    <br><br><br><br><br><br>
   </tr>
-
 <% @blogs.each do |blog| %>
   <tr>
   <tr>
-    
     <td><%= blog.content %></td>
     <td><%= blog.created_at %></td>
-    <td><%= link_to link_to 'post configuration', blog_path(blog.id) %></td>
-    <td><%= link_to link_to "Edit blog", edit_blog_path(blog.id) %></td>
+    <td><%= link_to link_to 'show', blog_path(blog.id) %></td>
+    <td><%= link_to link_to "Edit", edit_blog_path(blog.id),data:{ confirm:'are you sure'} %></td>
     <!-- Define here! -->
-    <td><%= link_to link_to 'Delete blog', blog_path(blog.id), method: :delete %></td>
+    <td><%= link_to link_to 'Delete', blog_path(blog.id), method: :delete, data:{ confirm:'are you sure'} %></td>
   </tr>
   </tr>
 <% end %>
-
 </table>
-
 <br>
-
 <%= link_to 'Post a new blog', new_blog_path %>
+</div>
